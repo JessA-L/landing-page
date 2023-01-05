@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1F2937;
+    color: #F9FAF8;
+    margin: auto 150px;
+}
+
+.header {
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    margin-top: -10px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+a {
+    font-size: 18px;
+    padding: 15px;
+    color: #E5E7EB;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+
+ul {
+    display: flex;
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+}
